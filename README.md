@@ -64,5 +64,126 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-HireLayer is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://hirelayer.co
+HireLayer provides a suite of recruiting APIs that enable developers to parse resumes, extract structured data, and match candidates to job descriptions. Their platform offers five core APIs covering resume parsing, job parsing, candidate‑job matching, candidate ranking, and skills matching. Users can access these services via a single API key and credit‑based billing, with documentation, pricing, and a free trial available online. The company targets ATS integrations, HR tech solutions, and staffing agencies, positioning itself as a flexible, cloud‑based recruiting API provider.
+
+**Areas:** Company · Recruiting · Resume Parsing · CandidateMatching
+
+## HireLayer on APIs.io
+
+Everything profiled for HireLayer is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hirelayer/](https://apis.io/providers/hirelayer/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [HireLayer HireLayer API](https://apis.io/apis/hirelayer/hirelayer-hirelayer-api-api/) — The HireLayer API API from HireLayer — 1 operation(s) for hirelayer api.
+- [HireLayer Jobs API](https://apis.io/apis/hirelayer/hirelayer-jobs-api/) — The Jobs API from HireLayer — 1 operation(s) for jobs.
+- [HireLayer Matching API](https://apis.io/apis/hirelayer/hirelayer-matching-api/) — The Matching API from HireLayer — 2 operation(s) for matching.
+- [HireLayer Parser API](https://apis.io/apis/hirelayer/hirelayer-parser-api/) — The Parser API from HireLayer — 2 operation(s) for parser.
+- [HireLayer Skills API](https://apis.io/apis/hirelayer/hirelayer-skills-api/) — The Skills API from HireLayer — 1 operation(s) for skills.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [PostApiV1JobsExtractCriteriaResponse](https://apis.io/schemas/hirelayer/hirelayer-post-api-v1-jobs-extract-criteria-response/)
+- [PostApiV1MatchingJobCandidateRequest](https://apis.io/schemas/hirelayer/hirelayer-post-api-v1-matching-job-candidate-request/)
+- [PostApiV1MatchingJobCandidateResponse](https://apis.io/schemas/hirelayer/hirelayer-post-api-v1-matching-job-candidate-response/)
+- [PostApiV1SkillsResolveResponse](https://apis.io/schemas/hirelayer/hirelayer-post-api-v1-skills-resolve-response/)
+- [PostApiV2ParserRequest](https://apis.io/schemas/hirelayer/hirelayer-post-api-v2-parser-request/)
+- [PostApiV3ParserResponse](https://apis.io/schemas/hirelayer/hirelayer-post-api-v3-parser-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Hirelayer Context](https://apis.io/jsonld/hirelayer/hirelayer-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [HireLayer API Rules](https://apis.io/rules/hirelayer/hirelayer-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Hirelayer Authentication](https://apis.io/security/hirelayer/hirelayer-authentication/)
+- [Hirelayer Domain Security](https://apis.io/security/hirelayer/hirelayer-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Hirelayer Plans Pricing](https://apis.io/plans/hirelayer/hirelayer-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://hirelayer.co)
+- [Documentation](https://hirelayer.co/api-docs)
+- [Getting started](https://hirelayer.co/api-docs/quickstart)
+- [Pricing](https://hirelayer.co/pricing)
+- [Blog](https://hirelayer.co/blog)
+- [Terms of service](https://hirelayer.co/legal-notice)
+- [Privacy policy](https://hirelayer.co/privacy-policy)
+- [GitHub](https://github.com/HireLayer)
+
+## API Evangelist rating
+
+**Kin Score 40.1** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 60.7 |
+| Contract quality | 24.7 |
+| Contract governance | 22.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 42.9 |
+| Access clarity | 76.3 |
+
+**Agent readiness 38.0** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hirelayer/](https://apis.io/providers/hirelayer/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for HireLayer: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hirelayer/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
